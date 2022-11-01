@@ -1,11 +1,11 @@
-# Ruffle ![](https://img.shields.io/badge/npm-ruffle-blue) ![](https://img.shields.io/badge/npm-lombok-brightgreen)
+# node-lombok ![](https://img.shields.io/badge/npm-node--lombok-blue) ![](https://img.shields.io/badge/npm-lombok-brightgreen)
 
 - _A lightweight npm package for typescript decorators which mimic some of the functionalities offered by lombok for java._
 
 ## Usage
 
-- Install with `npm i https://github.com/kartik1998/ruffle.git\#v4.0.0`
-- For latest install with `npm i https://github.com/kartik1998/ruffle.git`
+- Install with `npm i https://github.com/kartik1998/node-lombok.git\#v1.0.0`
+- For latest install with `npm i https://github.com/kartik1998/node-lombok.git`
 - Please ensure that you have set **`experimentalDecorators`** set as **`true`** in your tsconfig.json
 
 ### @Data
@@ -18,7 +18,7 @@ A set method will capitilize the first letter of the attribute and add "set" as 
 </blockquote>
 
 ```ts
-import { Data } from 'ruffle';
+import { Data } from 'node-lombok';
 
 @Data()
 class User {
@@ -47,7 +47,7 @@ A get method will capitilize the first letter of the attribute and add "get" as 
 </blockquote>
 
 ```ts
-import { Getters } from 'ruffle';
+import { Getters } from 'node-lombok';
 
 @Getters()
 class User {
@@ -75,7 +75,7 @@ A set method will capitilize the first letter of the attribute and add "set" as 
 </blockquote>
 
 ```ts
-import { Setters } from 'ruffle';
+import { Setters } from 'node-lombok';
 
 @Setters()
 class User {
@@ -105,7 +105,7 @@ If you use please don't define "_id", "getId()" and "static findById" in your cl
 </blockquote>
 
 ```ts
-import { Store } from 'ruffle';
+import { Store } from 'node-lombok';
 
 @Store()
 class User {

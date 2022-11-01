@@ -1,6 +1,6 @@
 {
-  "name": "ruffle",
-  "version": "4.0.0",
+  "name": "node-lombok",
+  "version": "0.0.0",
   "main": "build/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kartik1998/ruffle.git"
+    "url": "git+https://github.com/kartik1998/node-lombok.git"
   },
   "bugs": {
-    "url": "https://github.com/kartik1998/ruffle/issues"
+    "url": "https://github.com/kartik1998/node-lombok/issues"
   },
-  "homepage": "https://github.com/kartik1998/ruffle#readme",
+  "homepage": "https://github.com/kartik1998/node-lombok#readme",
   "author": "Kartik Rawat",
   "keywords": [
     "Decorators",
