@@ -8,7 +8,19 @@
     "prepare": "npm run compile",
     "prepublishOnly": "npm run compile"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartik1998/ruffle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kartik1998/ruffle/issues"
+  },
+  "homepage": "https://github.com/kartik1998/ruffle#readme",
   "author": "Kartik Rawat",
+  "keywords": [
+    "Decorators",
+    "Lombok"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.14.6",
