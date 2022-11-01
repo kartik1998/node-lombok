@@ -4,8 +4,7 @@
 
 ## Usage
 
-- Install with `npm i https://github.com/kartik1998/node-lombok.git\#v1.0.0`
-- For latest install with `npm i https://github.com/kartik1998/node-lombok.git`
+- Install with `npm i node-lombok`
 - Please ensure that you have set **`experimentalDecorators`** set as **`true`** in your tsconfig.json
 
 ### @Data
