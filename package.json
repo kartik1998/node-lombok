@@ -1,6 +1,6 @@
 {
   "name": "ruffle",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "build/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
