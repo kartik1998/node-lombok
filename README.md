@@ -95,4 +95,26 @@ console.log(user);
 ### @Store
 
 - **`@Store`** sets up **storage** for all objects of a class.
--
+- **storage** is basically just a map where the instantiated object is stored agains it's **`_id`**.
+- The **`_id`** is auto incremented and storageMap looks like: `{ _id: object }`.
+
+<blockquote>
+If you use please don't define "_id", "getId()" and "static findById" in your class as they are already defined by the decorator
+</blockquote>
+
+```ts
+import { Store } from 'ruffle';
+
+@Store()
+class User {
+  [x: string]: any;
+  private name: string;
+  constructor(name: string) {
+    this.name = name;
+  }
+}
+const a = new User('A');
+const b = new User('B');
+// b will have _id = 2 so you can search it from storage like:
+console.log(User.findById(2));
+```
