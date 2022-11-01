@@ -100,7 +100,8 @@ console.log(user);
 - The **`_id`** is auto incremented and storageMap looks like: `{ _id: object }`.
 
 <blockquote>
-If you use please don't define "_id", "getId()" and "static findById" in your class as they are already defined by the decorator
+If you use please don't define "_id", "getId()" and "static findById" in your class as they are already defined by the decorator <br/>
+You'll have to use @ts-ignore as a comment when calling `ClassName.findById` because ts doesn't recognize `findById` method
 </blockquote>
 
 ```ts
@@ -117,5 +118,7 @@ class User {
 const a = new User('A');
 const b = new User('B');
 // b will have _id = 2 so you can search it from storage like:
+
+// @ts-ignore
 console.log(User.findById(2));
 ```
