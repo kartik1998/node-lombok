@@ -13,7 +13,7 @@ const Store =
       public static findById(id: number) {
         return storage[id];
       }
-      private _id: number;
+      public readonly _id: number;
       getId: () => number;
       constructor(...args: any[]) {
         super(...args);

@@ -4,7 +4,7 @@
   "main": "build/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "compile": "tsc -p tsconfig.json",
+    "compile": "tsc -p tsconfig.json && tsc -d --declarationMap --emitDeclarationOnly",
     "prepare": "npm run compile",
     "prepublishOnly": "npm run compile"
   },
