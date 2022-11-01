@@ -101,7 +101,8 @@ console.log(user);
 
 <blockquote>
 If you use please don't define "_id", "getId()" and "static findById" in your class as they are already defined by the decorator <br/>
-You'll have to use @ts-ignore as a comment when calling `ClassName.findById` because ts doesn't recognize `findById` method
+You'll have to use @ts-ignore as a comment when calling `ClassName.findById` because ts doesn't recognize `findById` method <br/>
+You can use `@ts-nocheck ` to disable typescript checks for the entire file
 </blockquote>
 
 ```ts
