@@ -4,6 +4,7 @@
 
 ## Usage
 
+- Install with `npm i https://github.com/kartik1998/ruffle.git\#v1.0.1`
 - Please ensure that you have set **`experimentalDecorators`** set as **`true`** in your tsconfig.json
 
 ### @Data
